@@ -84,6 +84,11 @@ robot.end_fill
 
 #make smoke coming out of the house
 smoke=0
+robot.up()
+robot.goto(120,115)
+robot.pencolor("gray")
+
+'''while smoke <0:'''
 
 
 
