@@ -2,7 +2,7 @@
 import turtle as trtl
 
 robot= trtl.Turtle()
-robot.speed(0)
+robot.speed(9)
 #draw side of first mountain
 robot.pensize(5)
 robot.up()
@@ -76,19 +76,20 @@ robot.up()
 robot.goto(80,75)
 robot.down()
 robot.pencolor("green")
-robot.pensize(15)
+robot.pensize(30)
 robot.fillcolor("green")
 robot.begin_fill
 robot.circle(15)
 robot.end_fill
 
+'''
 #make smoke coming out of the house
 smoke=0
 robot.up()
 robot.goto(120,115)
 robot.pencolor("gray")
-
-'''while smoke <0:'''
+while smoke <0:
+'''
 
 
 
